@@ -12,6 +12,15 @@ body {
     text-align: center;
     line-height: 200px;
 }
+#box2 {
+    height: 200px;
+    width: 200px;
+    background: blue;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px;
+    border-top-right-radius: 200px;
+}
 
 .thing {
     height: 200px;
@@ -219,10 +228,10 @@ input#reset {
     line-height: 100px;
     margin: 100px auto 0;
     opacity: 0.5;
-    
+
     /* for position properties to work in jQuery animate, you need to make sure the element being animated has a position property defined */
     position: relative;
-        
+
 }
 
 /* -------------------------------
@@ -245,17 +254,3 @@ input#reset {
     -moz-border-radius: 100%;
     border-radius: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
